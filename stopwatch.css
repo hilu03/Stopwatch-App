@@ -1,0 +1,95 @@
+body {
+  font-family: Arial;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.outer-border {
+  width: 340px;
+  height: 340px;
+  border: 3px solid rgb(194, 11, 197);
+  border-radius: 170px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 2px solid rgb(194, 11, 197);
+  margin: auto;
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  /* color: rgb(90, 167, 255); */
+}
+
+.start-button,
+.stop-button,
+.reset-button,
+.lap-button {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.start-button {
+  background-color: rgb(54, 134, 54);
+  color: white;
+}
+
+.reset-button {
+  background-color: rgb(251, 173, 16);
+  color: white;
+}
+
+.stop-button {
+  background-color: red;
+  color: white;
+}
+
+.init-timer {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.lap-button {
+  width: 80px;
+  background-color: rgb(53, 147, 254);
+  color: white;
+  opacity: 0;
+}
+
+.lap-button-display {
+  opacity: 1;
+}
+
+.laps-title, .laps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.laps-title-display {
+  font-weight: bold;
+  margin-bottom: 7px;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+}
